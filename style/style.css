@@ -157,6 +157,32 @@ footer{
     height: 50px;
     width: 70px;
 }
+#pe{
+    margin-left: 39%;
+}
+
+#btn{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    
+    border-radius: 30px;
+    height: 30px;
+    margin-left: 45%;
+    text-decoration: none;
+}
+#btn:hover{
+    background-color:rgb(168, 10, 236);
+    transform: scale(1.1);
+    color: white;
+    text-decoration: none;
+}
+
+#abtn{
+    color: white;
+    text-decoration: none;
+}
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
     #divform{
