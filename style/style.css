@@ -143,6 +143,10 @@ footer{
     margin-right: 30px;
     cursor: pointer;
 }
+
+#linke:hover{
+    transform: scale(1.2);
+}
 #git{
     height: 30px;
     width: 30px;
@@ -150,6 +154,11 @@ footer{
     margin-right: 30px;
     cursor: pointer;
 }
+
+#git:hover{
+    transform: scale(1.2);
+}
+
 #hfoter{
     margin-left: 90%;
 }
