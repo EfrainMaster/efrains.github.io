@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>Efrain</title>
+</head>
+
+<body>
+    
+    <div id="divnav">
+        <nav>
+            <h1>Efrain Sanchez</h1>
+            <ul>
+                <li><a href="sobremi.html">Index</a></li>
+                <li><a href="sobremi.html">Sobre mi</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="divform">
+        <form action="" method="POST" id="formCont">
+            <label class="labelf" for="name">Nombre</label>
+            <input type="text" name="name" placeholder="Ingresa tu Nombre" required/>
+
+            <label class="labelf"  for="apellido">Apellido</label>
+            <input type="text" name="apellido" placeholder="Ingresa tu Apellido" required/>
+
+            <label class="labelf"  for="mail">Mail</label>
+            <input type="email" name="mail" placeholder="Ingresa tu Mail" required/>
+
+            <label class="labelf"  for="sexo">Sexo</label>
+            <select name="sex"  required>
+                <option value="men">Hombre </option>
+                <option value="woman">Mujer</option>
+            </select>
+
+            <label class="labelf"  for="date">Fecha de Nacimiento</label>
+            <input name="date" type="date"  data-validation-format="dd-mm-yyyy" required/>
+
+            <input id="boton" type="submit" value="Enviar">
+
+        </form>
+    </div>
+    
+    <footer>Efrain Sanchez <a href="https://www.linkedin.com/in/efrain-as/"><img id="linke" src="./img/linkedin.png"></a> <a href="https://github.com/EfrainMaster/"><img id="git" src="./img/github.png"></a></footer>
+    <a href="404.html"></a>
+   
+    <script src="./js/main.js"></script>
+</body>
+</html>
