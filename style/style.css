@@ -105,6 +105,16 @@ form{
     transform: scale(1.1);
 }
 
+#buton{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    
+    border-radius: 30px;
+    height: 30px;
+}
+
    
 
 #foto{
@@ -142,6 +152,11 @@ footer{
     float: right;
     margin-right: 30px;
     cursor: pointer;
+}
+
+#message{
+    
+    height: 50px;
 }
 
 #linke:hover{

@@ -21,7 +21,6 @@ loginForm.addEventListener("submit", function(event) {
         bienvenida.innerHTML = "Bienvenido, " + username+ " !<br>";
         botonR.style.display = "block";
 
-        // bienvenida.html = "Bienvenido, " + username+ "!";
         
 
     }else {

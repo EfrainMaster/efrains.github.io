@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <title>Efrain</title>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    emailjs.init('DiS6o15V_VqfRfH4G')
+    </script>
 </head>
 
 <body>
@@ -29,7 +34,7 @@
             <input type="text" name="apellido" placeholder="Ingresa tu Apellido" required/>
 
             <label class="labelf"  for="mail">Mail</label>
-            <input type="email" name="mail" placeholder="Ingresa tu Mail" required/>
+            <input type="email" name="mail" placeholder="Ingresa tu Mail" id="email_id" required/>
 
             <label class="labelf"  for="sexo">Sexo</label>
             <select name="sex"  required>
@@ -40,7 +45,10 @@
             <label class="labelf"  for="date">Fecha de Nacimiento</label>
             <input name="date" type="date"  data-validation-format="dd-mm-yyyy" required/>
 
-            <input id="boton" type="submit" value="Enviar">
+            <label class="labelf" id="messageL" for="message">Mensaje</label>
+            <input type="text" name="message" id="message">
+
+            <input id="buton" type="submit" value="Enviar">
             <div id="mensaje"></div>
         </form>
 
@@ -52,5 +60,7 @@
     <a href="404.html"></a>
    
     <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script>
+
 </body>
 </html>
