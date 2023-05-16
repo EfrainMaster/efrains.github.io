@@ -21,27 +21,20 @@
         </nav>
     </div>
     <div id="divform">
-        <form action="" method="POST" id="formCont">
-            <label class="labelf" for="name">Nombre</label>
-            <input type="text" name="name" placeholder="Ingresa tu Nombre" required/>
+        
+        <form id="loginform">
+            <h3 id="bienvenido"></h3>
+            
+            <label id="usernamel" class="labelf" for="username">Usuario</label>
+            <input type="text" id="username" name="username" placeholder="Ingresa tu Usuario" required/>
 
-            <label class="labelf"  for="apellido">Apellido</label>
-            <input type="text" name="apellido" placeholder="Ingresa tu Apellido" required/>
+            <label class="labelf" id="contraseñal" for="password">Contraseña</label>
+            <input type="password" id="contraseña" name="password" placeholder="Ingresa tu Contraseña" required/>
 
-            <label class="labelf"  for="mail">Mail</label>
-            <input type="email" name="mail" placeholder="Ingresa tu Mail" required/>
 
-            <label class="labelf"  for="sexo">Sexo</label>
-            <select name="sex"  required>
-                <option value="men">Hombre </option>
-                <option value="woman">Mujer</option>
-            </select>
-
-            <label class="labelf"  for="date">Fecha de Nacimiento</label>
-            <input name="date" type="date"  data-validation-format="dd-mm-yyyy" required/>
-
-            <input id="boton" type="submit" value="Enviar">
+            <input id="boton" type="submit" value="Iniciar Sesión">
             <div id="mensaje"></div>
+            <button id="btnR"><a>Cerrar Sesión</a></button>
         </form>
 
       
@@ -51,6 +44,7 @@
     <footer>Efrain Sanchez <a href="https://www.linkedin.com/in/efrain-as/"><img id="linke" src="./img/linkedin.png"></a> <a href="https://github.com/EfrainMaster/"><img id="git" src="./img/github.png"></a></footer>
     <a href="404.html"></a>
    
-    <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script>
+    <!-- <script src="./js/main.js"></script> -->
 </body>
 </html>
