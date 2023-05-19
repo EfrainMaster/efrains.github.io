@@ -16,39 +16,41 @@
     
     <div id="divnav">
         <nav>
-            <h1>Efrain Sanchez</h1>
+            <h1 alt="titulo es efrain sanchez">Efrain Sanchez</h1>
             <ul>
-                <li><a href="sobremi.html">Inicio</a></li>
-                <li><a href="sobremi.html">Sobre mi</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="sobremi.html" alt="inicio">Inicio</a></li>
+                <li><a href="sobremi.html" alt="sobre mi">Sobre mi</a></li>
+                <li><a href="contacto.html" alt="contacto">Contacto</a></li>
+                <li><a href="login.html" alt="login">Login</a></li>
+                <li><a href="https://wa.link/pf6305"><img alt="whatsapp" id="what" src="./img/whatsapp.png"></a></li>
             </ul>
         </nav>
     </div>
     <div id="divform">
         <form action="" method="POST" id="formCont">
-            <label class="labelf" for="name">Nombre</label>
+            <label class="labelf" for="name" alt="nombre">Nombre</label>
             <input type="text" name="name" placeholder="Ingresa tu Nombre" required/>
 
-            <label class="labelf"  for="apellido">Apellido</label>
+            <label class="labelf"  for="apellido" alt="apellido">Apellido</label>
             <input type="text" name="apellido" placeholder="Ingresa tu Apellido" required/>
 
-            <label class="labelf"  for="mail">Mail</label>
+            <label class="labelf"  for="mail" alt="mail">Mail</label>
             <input type="email" name="mail" placeholder="Ingresa tu Mail" id="email_id" required/>
 
-            <label class="labelf"  for="sexo">Sexo</label>
+            <label class="labelf"  for="sexo" alt="sexo">Sexo</label>
             <select name="sex"  required>
-                <option value="men">Hombre </option>
-                <option value="woman">Mujer</option>
+                <option value="men" alt="hombre">Hombre </option>
+                <option value="woman" alt="indefinido">Mujer</option>
+                <option value="pnd" alt="indefinido">Indefinido</option>
             </select>
 
-            <label class="labelf"  for="date">Fecha de Nacimiento</label>
+            <label class="labelf"  for="date" alt="fecha">Fecha de Nacimiento</label>
             <input name="date" type="date"  data-validation-format="dd-mm-yyyy" required/>
 
-            <label class="labelf" id="messageL" for="message">Mensaje</label>
+            <label class="labelf" id="messageL" for="message" alt="mensaje">Mensaje</label>
             <textarea type="text" name="message" id="message"></textarea>
 
-            <input id="buton" type="submit" value="Enviar">
+            <input id="buton" type="submit" value="Enviar" alt="enviar">
             <div id="mensaje"></div>
         </form>
 
@@ -56,7 +58,7 @@
         
     </div>
     
-    <footer>Efrain Sanchez <a href="https://www.linkedin.com/in/efrain-as/"><img id="linke" src="./img/linkedin.png"></a> <a href="https://github.com/EfrainMaster/"><img id="git" src="./img/github.png"></a></footer>
+    <footer>Efrain Sanchez <a href="https://www.linkedin.com/in/efrain-as/"><img alt="linkedin" id="linke" src="./img/linkedin.png"></a> <a href="https://github.com/EfrainMaster/"><img alt="github" id="git" src="./img/github.png"></a></footer>
     <a href="404.html"></a>
    
     <script src="./js/main.js"></script>

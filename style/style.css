@@ -133,6 +133,10 @@ form{
     padding: 10px;
     
 }
+#what{
+    width: 30px;
+    height: 30px;
+}
 
 footer{
     background-color: #d22cd8;
