@@ -291,7 +291,7 @@ footer{
 
     nav ul li{
         display: block;
-        margin: 50px 0;
+        margin: 30px 0;
     }
 
     nav ul li a{
@@ -299,7 +299,7 @@ footer{
     }
 
     #check:checked ~ ul{
-        left: 0;;
+        left: 0;
     }
 }
 
