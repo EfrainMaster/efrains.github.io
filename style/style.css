@@ -1,6 +1,7 @@
 body{
     background-color: rgb(168, 10, 236);
     color:azure;
+    margin-bottom: 30px;
 
 }
 h1{
@@ -254,6 +255,23 @@ footer{
     box-shadow:none;
 }
 
+#btnScroll{
+    display: none;
+    position: fixed;
+    background: none;
+    bottom: 90px;
+    border: none;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    z-index: 99;
+    margin-right: 15px;
+}
+
+#arriba{
+    width: 35px;
+    height: 35px;
+}
 
 
 #btnR{

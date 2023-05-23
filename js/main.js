@@ -2,6 +2,10 @@
 const btn = document.getElementById('buton');
 const miForm = document.getElementById("formCont");
 
+window.onscroll = function() {
+  scrollFunction();
+}
+
  miForm.addEventListener('submit', function(event) {
    event.preventDefault();
 
@@ -22,12 +26,22 @@ const miForm = document.getElementById("formCont");
 });
 
 
-// const miForm = document.getElementById("formCont");
-// miForm.addEventListener("submit", function(event) {
-//     event.preventDefault();
-//     let imagen = '<img src= "img/ok.com.png" width=30 height=30 >'
-//     document.getElementById("mensaje").innerHTML = "El Formulario se Completo con Exito" + imagen;
-// })
+
+function scrollFunction() {
+  var btnScrollToTop = document.getElementById("btnScroll");
+  if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    btnScrollToTop.style.display = "block";
+    btnScrollToTop.style.right = "30px";
+  } else {
+    btnScrollToTop.style.display = "none";
+  }
+}
+
+function scrolltoTop() {
+  document.body.scrollTop = 0;
+
+  document.documentElement.scrollTop = 0;
+}
 
 
 
