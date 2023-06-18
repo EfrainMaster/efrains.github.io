@@ -167,8 +167,9 @@ form{
     justify-content: center;
     background-color: #d22cd8;
     border-radius: 30px;
-    margin-top: 0%;
-    padding: 10px;
+    margin: 15%;
+    padding: 30px;
+    margin-top: 5%;
     
 }
 #what{
@@ -332,6 +333,9 @@ footer{
 
     #check:checked ~ ul{
         left: 0;
+    }
+    #infor{
+        margin: 0%;
     }
 }
 
