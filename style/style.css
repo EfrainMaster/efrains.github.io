@@ -22,6 +22,14 @@ h1{
     letter-spacing: 1px;
 }
 
+#triangulo {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+
+    
+}
+
 #imgcheck{
     width: 30px;
     height: 30px;
