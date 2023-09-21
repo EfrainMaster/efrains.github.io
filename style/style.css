@@ -23,8 +23,8 @@ h1{
 }
 
 #triangulo {
-    width: 39px;
-    height: 39px;
+    width: 60px;
+    height: 60px;
     position: fixed;
 
     
@@ -328,6 +328,14 @@ footer{
         transition: all .5s;
         background: #d22cd8;
 
+    }
+
+    #triangulo {
+        width: 30px;
+        height: 30px;
+        position: fixed;
+    
+        
     }
 
     nav ul li{
