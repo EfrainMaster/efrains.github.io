@@ -366,4 +366,15 @@ footer{
     }
 }
 
-
+.contenedor-videos{
+    display: flex;
+    gap: 20px; /* Espaciado entre videos */
+    justify-content: center;
+    flex-wrap: wrap; /* Para que los videos bajen de línea si no caben */
+    background-color: #130638;
+}
+video {
+    width: 300px; /* Tamaño fijo de cada video */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
